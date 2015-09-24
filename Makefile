@@ -21,7 +21,7 @@ build-linux-bins: prepare
                      ./cmd/telegraf/telegraf.go
 
 prepare:
-	go get github.com/tools/godep
+	# go get github.com/tools/godep
 
 docker-compose:
 ifeq ($(UNAME), Darwin)
